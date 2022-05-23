@@ -7,6 +7,7 @@ models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
+# made a small change, just for testing
 # while True:
 #     try:
 #         conn = psycopg2.connect(host='localhost', database='fastapi', user='postgres',
